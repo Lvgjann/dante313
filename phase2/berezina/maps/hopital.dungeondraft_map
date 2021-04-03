@@ -14,10 +14,10 @@
 		"uses_default_assets": true,
 		"asset_manifest": [
 			{
-				"name": "Geordie_full_cliff_package",
-				"id": "8K8jJisA",
-				"version": "1.2",
-				"author": "Geordie_LaForge_",
+				"name": "TygerModernComKitchen",
+				"id": "9qbCX1Jf",
+				"version": "1.5",
+				"author": "Tyger_purr",
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0,
@@ -38,58 +38,10 @@
 				}
 			},
 			{
-				"name": "Benthic Botany",
-				"id": "E0ZgzvXT",
-				"version": "1",
-				"author": "Stovetop",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0,
-					"min_saturation": 0,
-					"red_tolerance": 0
-				}
-			},
-			{
-				"name": "Expanded Nature Vol. 1",
-				"id": "JoOKLIJc",
-				"version": "1",
-				"author": "Scott Avery",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
-				}
-			},
-			{
-				"name": "Food and Tableware Assets",
-				"id": "M0UD6yLx",
-				"version": "1.1",
-				"author": "",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0,
-					"min_saturation": 0,
-					"red_tolerance": 0
-				}
-			},
-			{
-				"name": "IC_Apothecary",
-				"id": "MKedRBxF",
-				"version": "1",
-				"author": "InsightCheque",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0,
-					"min_saturation": 0,
-					"red_tolerance": 0
-				}
-			},
-			{
-				"name": "Cover Your Trail - Creature Tracks and Footprints",
-				"id": "PbLOLyZb",
-				"version": "1",
-				"author": "Slossinger",
+				"name": "TygerModernElectronics",
+				"id": "P3m04QOp",
+				"version": "1.3",
+				"author": "Tyger_purr",
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0,
@@ -134,10 +86,10 @@
 				}
 			},
 			{
-				"name": "GF Cyberpunk City Streets (free)",
-				"id": "gROdzYNQ",
-				"version": "0,1",
-				"author": "Gnome Factory",
+				"name": "TygerModernHome",
+				"id": "bsj2I8JP",
+				"version": "1.5",
+				"author": "Tyger_purr",
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0,
@@ -146,33 +98,33 @@
 				}
 			},
 			{
-				"name": "Naughty By Nature",
-				"id": "v6gDAbyS",
+				"name": "TygerModernBasics",
+				"id": "nisGyh8V",
+				"version": "1.5",
+				"author": "Tyger_purr",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
+			},
+			{
+				"name": "TygerModernMedical",
+				"id": "tHcF2xjB",
 				"version": "1",
-				"author": "The Drafting Table",
+				"author": "Tyger_purr",
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0,
 					"min_saturation": 0,
 					"red_tolerance": 0
-				}
-			},
-			{
-				"name": "GF Barren Biomes (free)",
-				"id": "zf0PMGQ5",
-				"version": "1,2",
-				"author": "Gnome Factory",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
 				}
 			}
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 2730.59, 2272.22 )",
+			"camera_position": "Vector2( 3706.59, 2709.55 )",
 			"camera_zoom": 5.333333,
 			"guide_position": "null",
 			"trace_image": null,
@@ -276,7 +228,7 @@
 			"object_tags_memory": {
 				"set": 0,
 				"tags": [
-					"SFM Storage Furniture"
+					"ModernComKitchen"
 				]
 			},
 			"scatter_tags_memory": {
@@ -286,10 +238,10 @@
 				]
 			},
 			"object_library_memory": {
-				"mode": "used",
-				"scroll": 290,
+				"mode": "all",
+				"scroll": 4246,
 				"selected": [
-					"res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png"
+					"res://packs/bsj2I8JP/textures/objects/ModernCabinetBuilder/Colorable/CabinetCorner01.png"
 				],
 				"search_strictness": 0.5
 			},
@@ -300,7 +252,7 @@
 		"format": 3,
 		"width": 30,
 		"height": 20,
-		"next_node_id": "1ee",
+		"next_node_id": "220",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -966,7 +918,10 @@
 						"19": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techhex.png",
 						"20": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techmessy.png",
 						"21": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techmetal.png",
-						"22": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techpanel.png"
+						"22": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techpanel.png",
+						"23": "res://packs/nisGyh8V/textures/tilesets/simple/TTile01.png",
+						"24": "res://packs/nisGyh8V/textures/tilesets/simple/TTile02.png",
+						"25": "res://packs/nisGyh8V/textures/tilesets/simple/TygerSFFloor.png"
 					}
 				},
 				"patterns": [
@@ -2058,125 +2013,26 @@
 				],
 				"objects": [
 					{
-						"position": "Vector2( 7284, 2424.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
+						"position": "Vector2( 2986.59, 472.219 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.26, 1.26 )",
 						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernCabinetBuilder/Colorable/Cabinet05.png",
 						"layer": 100,
 						"shadow": true,
-						"custom_color": "ff585858",
-						"node_id": "107"
+						"custom_color": "ff8a8a8a",
+						"node_id": "21f"
 					},
 					{
-						"position": "Vector2( 7276, 1408.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff585858",
-						"node_id": "106"
-					},
-					{
-						"position": "Vector2( 7276, 384.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff585858",
-						"node_id": "105"
-					},
-					{
-						"position": "Vector2( 2188, 4728.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff585858",
-						"node_id": "104"
-					},
-					{
-						"position": "Vector2( 1172, 4728.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff585858",
-						"node_id": "103"
-					},
-					{
-						"position": "Vector2( 1964, 3432.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff585858",
-						"node_id": "102"
-					},
-					{
-						"position": "Vector2( 2048, 1536 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/Pzv41KLE/textures/objects/FF Furniture/bedding_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff809dab",
-						"node_id": "af"
-					},
-					{
-						"position": "Vector2( 512, 512 )",
+						"position": "Vector2( 895.922, 4200.22 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"mirror": false,
-						"texture": "res://packs/Pzv41KLE/textures/objects/FF Furniture/bedding_1.png",
+						"texture": "res://textures/objects/military/blood/blood_water_stain_03.png",
 						"layer": 100,
 						"shadow": true,
-						"custom_color": "ff809dab",
-						"node_id": "b0"
-					},
-					{
-						"position": "Vector2( 1152, 512 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/Pzv41KLE/textures/objects/FF Furniture/bedding_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff809dab",
-						"node_id": "b1"
-					},
-					{
-						"position": "Vector2( 1920, 512 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/Pzv41KLE/textures/objects/FF Furniture/bedding_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff809dab",
-						"node_id": "b2"
-					},
-					{
-						"position": "Vector2( 2560, 512 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/Pzv41KLE/textures/objects/FF Furniture/bedding_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff809dab",
-						"node_id": "b3"
+						"custom_color": "ff6b3834",
+						"node_id": "21c"
 					},
 					{
 						"position": "Vector2( 1836, 1640.67 )",
@@ -2355,83 +2211,6 @@
 						"node_id": "ca"
 					},
 					{
-						"position": "Vector2( 1796, 4256.67 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "cb"
-					},
-					{
-						"position": "Vector2( 764, 4256.67 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "cc"
-					},
-					{
-						"position": "Vector2( 6540, 544.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "cd"
-					},
-					{
-						"position": "Vector2( 6556, 1600.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "ce"
-					},
-					{
-						"position": "Vector2( 6572, 2656.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "cf"
-					},
-					{
-						"position": "Vector2( 748, 2432.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "d0"
-					},
-					{
-						"position": "Vector2( 756, 3192.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "d2"
-					},
-					{
 						"position": "Vector2( 3308, 2832.67 )",
 						"rotation": 1.570796,
 						"scale": "Vector2( 1, 1 )",
@@ -2474,16 +2253,6 @@
 						"shadow": true,
 						"custom_color": "ffd8d8d8",
 						"node_id": "d6"
-					},
-					{
-						"position": "Vector2( 3020, 472.67 )",
-						"rotation": -1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/furniture/tables/table_corner_stone_02.png",
-						"layer": 100,
-						"shadow": true,
-						"node_id": "d7"
 					},
 					{
 						"position": "Vector2( 4676, 1232.67 )",
@@ -2655,50 +2424,6 @@
 						"node_id": "e7"
 					},
 					{
-						"position": "Vector2( 1964, 3432.67 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "e8"
-					},
-					{
-						"position": "Vector2( 1188, 4728.67 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "e9"
-					},
-					{
-						"position": "Vector2( 2220, 4728.67 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "ea"
-					},
-					{
-						"position": "Vector2( 3108, 376.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "eb"
-					},
-					{
 						"position": "Vector2( 6988, 3920.67 )",
 						"rotation": -1.570796,
 						"scale": "Vector2( 1, 1 )",
@@ -2806,94 +2531,6 @@
 						"node_id": "f6"
 					},
 					{
-						"position": "Vector2( 7284, 2384.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "ff"
-					},
-					{
-						"position": "Vector2( 7276, 1360.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "100"
-					},
-					{
-						"position": "Vector2( 7276, 344.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "101"
-					},
-					{
-						"position": "Vector2( 836, 2432.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_02.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "108"
-					},
-					{
-						"position": "Vector2( 876, 3192.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_01.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "109"
-					},
-					{
-						"position": "Vector2( 6660, 2648.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_02.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "10a"
-					},
-					{
-						"position": "Vector2( 6628, 536.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_02.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "10b"
-					},
-					{
-						"position": "Vector2( 6716, 1608.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1.2, 1.2 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_01.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "10c"
-					},
-					{
 						"position": "Vector2( 7212, 3240.67 )",
 						"rotation": -3.141593,
 						"scale": "Vector2( 1, 1 )",
@@ -2969,27 +2606,6 @@
 						"shadow": true,
 						"custom_color": "ffd8d8d8",
 						"node_id": "11c"
-					},
-					{
-						"position": "Vector2( 4736, 512 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/cooking/stove_03_russian.png",
-						"layer": 100,
-						"shadow": true,
-						"node_id": "11f"
-					},
-					{
-						"position": "Vector2( 3796, 1672.67 )",
-						"rotation": -1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/decor/dungeon/sarcophagus_01.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "fff3a768",
-						"node_id": "120"
 					},
 					{
 						"position": "Vector2( 382, 1666.77 )",
@@ -3342,39 +2958,6 @@
 						"shadow": true,
 						"custom_color": "ff585858",
 						"node_id": "146"
-					},
-					{
-						"position": "Vector2( 796, 4392.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/military/blood/blood_water_stain_09.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffac584c",
-						"node_id": "147"
-					},
-					{
-						"position": "Vector2( 756, 4112.67 )",
-						"rotation": -3.141593,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/military/blood/blood_water_stain_06.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffac584c",
-						"node_id": "148"
-					},
-					{
-						"position": "Vector2( 916, 4360.67 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/military/blood/blood_water_stain_08.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffac584c",
-						"node_id": "149"
 					},
 					{
 						"position": "Vector2( 7300, 4784.67 )",
@@ -3879,50 +3462,6 @@
 						"node_id": "1a9"
 					},
 					{
-						"position": "Vector2( 1455.92, 2317.56 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "1ab"
-					},
-					{
-						"position": "Vector2( 1466.59, 3042.89 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ff8a8a8a",
-						"node_id": "1ac"
-					},
-					{
-						"position": "Vector2( 1455.92, 2237.56 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_02.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "1ad"
-					},
-					{
-						"position": "Vector2( 1466.59, 3117.56 )",
-						"rotation": 1.570796,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://textures/objects/activities/administration/cloth_02.png",
-						"layer": 100,
-						"shadow": true,
-						"custom_color": "ffd8d8d8",
-						"node_id": "1ae"
-					},
-					{
 						"position": "Vector2( 1221.25, 2338.89 )",
 						"rotation": 1.570796,
 						"scale": "Vector2( 1, 1 )",
@@ -4317,6 +3856,489 @@
 						"shadow": true,
 						"custom_color": "ff8a8a8a",
 						"node_id": "1d5"
+					},
+					{
+						"position": "Vector2( 2079.92, 1570.89 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/HBed01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1ef"
+					},
+					{
+						"position": "Vector2( 2586.59, 466.887 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/HBed04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f0"
+					},
+					{
+						"position": "Vector2( 1935.92, 477.554 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/HBed02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f1"
+					},
+					{
+						"position": "Vector2( 1114.59, 488.22 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/HBed03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f2"
+					},
+					{
+						"position": "Vector2( 458.59, 493.554 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/HBed01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f3"
+					},
+					{
+						"position": "Vector2( 639.923, 573.554 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/IVStand01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f4"
+					},
+					{
+						"position": "Vector2( 2730.59, 386.887 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/IVStand02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f5"
+					},
+					{
+						"position": "Vector2( 975.923, 344.22 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/IVStand00.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1f6"
+					},
+					{
+						"position": "Vector2( 3941.26, 1522.89 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/XRay01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1f8"
+					},
+					{
+						"position": "Vector2( 4730.59, 584.22 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MRI01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1f9"
+					},
+					{
+						"position": "Vector2( 4794.59, 1128.22 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/Appliance.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1fa"
+					},
+					{
+						"position": "Vector2( 4874.59, 930.887 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Colorable/Appliance.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1fb"
+					},
+					{
+						"position": "Vector2( 6575.92, 648.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "1fc"
+					},
+					{
+						"position": "Vector2( 6559.92, 1640.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1fd"
+					},
+					{
+						"position": "Vector2( 6554.59, 2738.89 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1fe"
+					},
+					{
+						"position": "Vector2( 815.923, 2370.89 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1ff"
+					},
+					{
+						"position": "Vector2( 1466.59, 2328.22 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "200"
+					},
+					{
+						"position": "Vector2( 1525.26, 3005.55 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "201"
+					},
+					{
+						"position": "Vector2( 767.923, 3122.89 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "202"
+					},
+					{
+						"position": "Vector2( 586.59, 2365.55 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MedTable01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "203"
+					},
+					{
+						"position": "Vector2( 1637.26, 2429.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MedTable01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "204"
+					},
+					{
+						"position": "Vector2( 1685.26, 3085.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MedTable01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "205"
+					},
+					{
+						"position": "Vector2( 533.256, 3122.89 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MedTable01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "206"
+					},
+					{
+						"position": "Vector2( 1525.26, 3245.55 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Cart01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "207"
+					},
+					{
+						"position": "Vector2( 757.256, 4189.55 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "208"
+					},
+					{
+						"position": "Vector2( 1791.92, 4162.89 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/Gurney02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "209"
+					},
+					{
+						"position": "Vector2( 1941.26, 4077.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MedTable01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20a"
+					},
+					{
+						"position": "Vector2( 613.256, 4285.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/tHcF2xjB/textures/objects/ModernMedical/MedTable01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20b"
+					},
+					{
+						"position": "Vector2( 1951.92, 3490.89 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20c"
+					},
+					{
+						"position": "Vector2( 1173.26, 4776.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20d"
+					},
+					{
+						"position": "Vector2( 2197.26, 4776.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20e"
+					},
+					{
+						"position": "Vector2( 2922.59, 424.22 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20f"
+					},
+					{
+						"position": "Vector2( 7322.59, 354.887 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "210"
+					},
+					{
+						"position": "Vector2( 7322.59, 1384.22 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "211"
+					},
+					{
+						"position": "Vector2( 7311.92, 2408.22 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/9qbCX1Jf/textures/objects/ModernComKitchen/Sink01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "212"
+					},
+					{
+						"position": "Vector2( 1797.26, 4232.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "213"
+					},
+					{
+						"position": "Vector2( 757.255, 4109.55 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "214"
+					},
+					{
+						"position": "Vector2( 783.922, 3080.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "215"
+					},
+					{
+						"position": "Vector2( 6645.25, 621.553 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "216"
+					},
+					{
+						"position": "Vector2( 6447.92, 1645.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "217"
+					},
+					{
+						"position": "Vector2( 6634.59, 2733.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "218"
+					},
+					{
+						"position": "Vector2( 906.589, 2365.55 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "219"
+					},
+					{
+						"position": "Vector2( 1466.59, 2232.22 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "21a"
+					},
+					{
+						"position": "Vector2( 1530.59, 2914.89 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/cloth_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "21b"
+					},
+					{
+						"position": "Vector2( 783.922, 4098.89 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/military/blood/blood_water_stain_06.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "21d"
+					},
+					{
+						"position": "Vector2( 773.255, 4306.89 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/military/blood/blood_water_stain_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "21e"
 					}
 				],
 				"lights": [

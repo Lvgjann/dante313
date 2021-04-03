@@ -17,7 +17,7 @@
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 4026.94, 4769.47 )",
+			"camera_position": "Vector2( 4408.28, 6070.81 )",
 			"camera_zoom": 5.333333,
 			"guide_position": "null",
 			"trace_image": null,
@@ -132,11 +132,11 @@
 			},
 			"object_library_memory": {
 				"mode": "all",
-				"scroll": 17919.896484,
+				"scroll": 3791.921182,
 				"selected": [
 
 				],
-				"search_strictness": 0.52
+				"search_strictness": 0.5
 			},
 			"scatter_library_memory": {
 				"mode": "all",
@@ -152,7 +152,7 @@
 		"format": 3,
 		"width": 35,
 		"height": 30,
-		"next_node_id": "f1",
+		"next_node_id": "153",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -1266,6 +1266,31 @@
 
 				],
 				"walls": [
+					{
+						"points": "PoolVector2Array( 1792, 3328, 1792, 2816, 2560, 2816 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "115",
+						"portals": [
+							{
+								"position": "Vector2( 2432, 2816 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/portals/door_05.png",
+								"radius": 128,
+								"wall_id": "115",
+								"wall_distance": 1.833333,
+								"closed": true,
+								"node_id": "116"
+							}
+						]
+					},
 					{
 						"points": "PoolVector2Array( 2560, 512, 2560, 3328 )",
 						"texture": "res://textures/walls/stone.png",
@@ -3192,6 +3217,886 @@
 						"layer": 100,
 						"shadow": true,
 						"node_id": "ee"
+					},
+					{
+						"position": "Vector2( 2432, 1152 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "f1"
+					},
+					{
+						"position": "Vector2( 2432, 1408 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "f2"
+					},
+					{
+						"position": "Vector2( 2432, 1664 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "f3"
+					},
+					{
+						"position": "Vector2( 2432, 1920 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "f4"
+					},
+					{
+						"position": "Vector2( 2432, 2176 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "f5"
+					},
+					{
+						"position": "Vector2( 1536, 2176 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "fb"
+					},
+					{
+						"position": "Vector2( 1536, 1920 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "fc"
+					},
+					{
+						"position": "Vector2( 1536, 1664 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "fd"
+					},
+					{
+						"position": "Vector2( 1536, 1408 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "fe"
+					},
+					{
+						"position": "Vector2( 1536, 1152 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "ff"
+					},
+					{
+						"position": "Vector2( 1152, 1152 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "100"
+					},
+					{
+						"position": "Vector2( 1152, 1408 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "101"
+					},
+					{
+						"position": "Vector2( 1152, 1664 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "102"
+					},
+					{
+						"position": "Vector2( 1152, 1920 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "103"
+					},
+					{
+						"position": "Vector2( 1152, 2176 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "104"
+					},
+					{
+						"position": "Vector2( 1408, 1152 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "105"
+					},
+					{
+						"position": "Vector2( 1408, 1408 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "106"
+					},
+					{
+						"position": "Vector2( 1408, 1664 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "107"
+					},
+					{
+						"position": "Vector2( 1408, 1920 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "108"
+					},
+					{
+						"position": "Vector2( 1408, 2176 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "109"
+					},
+					{
+						"position": "Vector2( 2176, 1152 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "10a"
+					},
+					{
+						"position": "Vector2( 2176, 1408 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "10b"
+					},
+					{
+						"position": "Vector2( 2176, 1664 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "10c"
+					},
+					{
+						"position": "Vector2( 2176, 1920 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "10d"
+					},
+					{
+						"position": "Vector2( 2176, 2176 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "10e"
+					},
+					{
+						"position": "Vector2( 2048, 2176 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "10f"
+					},
+					{
+						"position": "Vector2( 2048, 1920 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "110"
+					},
+					{
+						"position": "Vector2( 2048, 1664 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "111"
+					},
+					{
+						"position": "Vector2( 2048, 1408 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "112"
+					},
+					{
+						"position": "Vector2( 1920, 3200 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.35, 0.35 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/bookshelf_corner_02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "117"
+					},
+					{
+						"position": "Vector2( 1920, 2944 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.63, 0.63 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/desks/open_desk_02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "118"
+					},
+					{
+						"position": "Vector2( 2170.67, 3226.67 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.79, 0.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/wardrobe_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "119"
+					},
+					{
+						"position": "Vector2( 2424, 3242.67 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1.29, 1.29 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "11a"
+					},
+					{
+						"position": "Vector2( 1536, 2432 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.78, 1.78 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "11b"
+					},
+					{
+						"position": "Vector2( 2176, 2432 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "11c"
+					},
+					{
+						"position": "Vector2( 1536, 2688 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "11d"
+					},
+					{
+						"position": "Vector2( 1536, 2944 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "11e"
+					},
+					{
+						"position": "Vector2( 1152, 2432 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "11f"
+					},
+					{
+						"position": "Vector2( 1152, 2688 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "120"
+					},
+					{
+						"position": "Vector2( 1152, 2944 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "121"
+					},
+					{
+						"position": "Vector2( 1152, 3200 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "123"
+					},
+					{
+						"position": "Vector2( 1408, 2944 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "124"
+					},
+					{
+						"position": "Vector2( 1408, 2688 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "125"
+					},
+					{
+						"position": "Vector2( 1408, 2432 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "126"
+					},
+					{
+						"position": "Vector2( 2048, 2432 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "127"
+					},
+					{
+						"position": "Vector2( 2432, 2432 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "128"
+					},
+					{
+						"position": "Vector2( 2048, 1152 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "129"
+					},
+					{
+						"position": "Vector2( 1152, 896 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "12a"
+					},
+					{
+						"position": "Vector2( 1536, 896 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "12b"
+					},
+					{
+						"position": "Vector2( 2176, 896 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "12c"
+					},
+					{
+						"position": "Vector2( 2048, 896 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "12d"
+					},
+					{
+						"position": "Vector2( 1408, 896 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "12e"
+					},
+					{
+						"position": "Vector2( 1152, 640 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.79, 1.79 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "12f"
+					},
+					{
+						"position": "Vector2( 6656, 2944 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "130"
+					},
+					{
+						"position": "Vector2( 7296, 2432 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "131"
+					},
+					{
+						"position": "Vector2( 7808, 1664 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "132"
+					},
+					{
+						"position": "Vector2( 4992, 1408 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "133"
+					},
+					{
+						"position": "Vector2( 4992, 1152 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "134"
+					},
+					{
+						"position": "Vector2( 5248, 1664 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "135"
+					},
+					{
+						"position": "Vector2( 3840, 1792 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "136"
+					},
+					{
+						"position": "Vector2( 3072, 2048 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "137"
+					},
+					{
+						"position": "Vector2( 2816, 1536 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_roots_08.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "138"
+					},
+					{
+						"position": "Vector2( 7296, 1408 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_carrot_05.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "139"
+					},
+					{
+						"position": "Vector2( 6656, 3072 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_carrot_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "13a"
+					},
+					{
+						"position": "Vector2( 4992, 1664 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_carrot_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "13b"
+					},
+					{
+						"position": "Vector2( 5248, 1792 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_carrot_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "13c"
+					},
+					{
+						"position": "Vector2( 3840, 1536 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_carrot_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "13d"
+					},
+					{
+						"position": "Vector2( 4930.94, 1390.8 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_onion_07.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "13e"
+					},
+					{
+						"position": "Vector2( 5544.28, 1977.47 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_onion_07.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "13f"
+					},
+					{
+						"position": "Vector2( 5304.28, 1636.14 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_onion_07.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "140"
+					},
+					{
+						"position": "Vector2( 2792.28, 1716.14 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_onion_07.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "141"
+					},
+					{
+						"position": "Vector2( 5261.61, 1396.14 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.54, 0.54 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/dining/food_meat_leg_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "142"
+					},
+					{
+						"position": "Vector2( 5453.61, 1641.47 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.54, 0.54 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/dining/food_meat_leg_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "143"
+					},
+					{
+						"position": "Vector2( 3597.61, 2676.14 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.54, 0.54 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/dining/food_meat_leg_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "144"
+					},
+					{
+						"position": "Vector2( 7208.28, 2724.14 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 0.54, 0.54 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/dining/food_meat_leg_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "145"
+					},
+					{
+						"position": "Vector2( 4530.94, 756.136 )",
+						"rotation": 2.617994,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_fish_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "146"
+					},
+					{
+						"position": "Vector2( 3992.28, 761.47 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_fish_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "147"
+					},
+					{
+						"position": "Vector2( 4301.61, 740.136 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_fish_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "148"
+					},
+					{
+						"position": "Vector2( 4242.94, 734.803 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_fish_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "149"
+					},
+					{
+						"position": "Vector2( 5197.61, 1918.8 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "14a"
+					},
+					{
+						"position": "Vector2( 5352.28, 1593.47 )",
+						"rotation": -0.261799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "14b"
+					},
+					{
+						"position": "Vector2( 5304.28, 1652.14 )",
+						"rotation": -0.261799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "14c"
+					},
+					{
+						"position": "Vector2( 5282.94, 1604.14 )",
+						"rotation": -0.261799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "14d"
+					},
+					{
+						"position": "Vector2( 5746.94, 1369.47 )",
+						"rotation": -0.261799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "14e"
+					},
+					{
+						"position": "Vector2( 4989.61, 1401.47 )",
+						"rotation": 0.523599,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "14f"
+					},
+					{
+						"position": "Vector2( 7266.94, 3225.47 )",
+						"rotation": 1.308997,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "150"
+					},
+					{
+						"position": "Vector2( 7309.61, 3332.14 )",
+						"rotation": 1.308997,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/cooking/food_leek_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "151"
 					}
 				],
 				"lights": [

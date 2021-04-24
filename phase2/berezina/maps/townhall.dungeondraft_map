@@ -292,8 +292,8 @@
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 2677.73, 1546.4 )",
-			"camera_zoom": 5.333333,
+			"camera_position": "Vector2( 2513.73, 1720.4 )",
+			"camera_zoom": 4,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -396,7 +396,7 @@
 			"object_tags_memory": {
 				"set": 0,
 				"tags": [
-
+					"ModernElectronics"
 				]
 			},
 			"scatter_tags_memory": {
@@ -406,10 +406,10 @@
 				]
 			},
 			"object_library_memory": {
-				"mode": "all",
+				"mode": "tags",
 				"scroll": 0,
 				"selected": [
-					"res://packs/RFHS0QlS/textures/objects/Windows/Colorable/WindowWideC01.png"
+
 				],
 				"search_strictness": 0.5
 			},
@@ -427,7 +427,7 @@
 		"format": 3,
 		"width": 19,
 		"height": 12,
-		"next_node_id": "71",
+		"next_node_id": "247",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -741,9 +741,331 @@
 						"texture": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techmetal.png",
 						"rotation": 0,
 						"node_id": "40"
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 3328, 1024, 3840, 1024, 3840, 1536, 3328, 1536 )",
+						"layer": 100,
+						"color": "ffd9d9d9",
+						"outline": false,
+						"texture": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techhex.png",
+						"rotation": 0,
+						"node_id": "f6"
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 2560, 2304, 2816, 2304, 2816, 2560, 2560, 2560 )",
+						"layer": 100,
+						"color": "ffd9d9d9",
+						"outline": false,
+						"texture": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techhex.png",
+						"rotation": 0,
+						"node_id": "f7"
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 2304, 2304, 2560, 2304, 2560, 2560, 2304, 2560 )",
+						"layer": 100,
+						"color": "ffd9d9d9",
+						"outline": false,
+						"texture": "res://packs/WruDGcFQ/textures/tilesets/simple/tileset_techhex.png",
+						"rotation": 0,
+						"node_id": "f8"
 					}
 				],
 				"walls": [
+					{
+						"points": "PoolVector2Array( 4608, 2304, 4864, 2304 )",
+						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
+						"color": "ffffffff",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "1a8",
+						"portals": [
+							{
+								"position": "Vector2( 4736, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "1a8",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "1ac"
+							}
+						]
+					},
+					{
+						"points": "PoolVector2Array( 3072, 0, 3072, 768, 3840, 768, 3840, 0 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "125",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 3328, 1024, 2560, 1024 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "124",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 3840, 1536, 3840, 1024, 3328, 1024, 3328, 1536 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "123",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 4096, 1536, 4096, 2048, 4864, 2048 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "122",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 3072, 2048, 3072, 2304 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "121",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 3840, 1536, 3840, 2048, 3072, 2048, 3072, 1536 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "120",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2560, 1536, 4096, 1536 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "11f",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2816, 2304, 2560, 2304 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "11e",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2048, 2304, 2560, 2304 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "11d",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2048, 1792, 2560, 1792 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "11c",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 2048, 1280, 2560, 1280 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "11b",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 0, 2560, 512, 2560 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "11a",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 0, 2048, 512, 2048 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "119",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 0, 1536, 512, 1536 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "118",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 1536, 1024, 2560, 1024 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "117",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 1536, 0, 1536, 1024, 0, 1024 )",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "116",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 1536, 2560, 2048, 2560 )",
+						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
+						"color": "ffffffff",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "10d",
+						"portals": [
+							{
+								"position": "Vector2( 1664.4, 2560 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide01.png",
+								"radius": 128,
+								"wall_id": "10d",
+								"wall_distance": 0.250775,
+								"closed": true,
+								"node_id": "110"
+							},
+							{
+								"position": "Vector2( 1936.4, 2560 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide01.png",
+								"radius": 128,
+								"wall_id": "10d",
+								"wall_distance": 0.782025,
+								"closed": true,
+								"node_id": "111"
+							}
+						]
+					},
 					{
 						"points": "PoolVector2Array( 3328, 1024, 3328, 1536 )",
 						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
@@ -797,7 +1119,54 @@
 						"shadow": true,
 						"node_id": "53",
 						"portals": [
-
+							{
+								"position": "Vector2( 3840, 1408 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "53",
+								"wall_distance": 0.25,
+								"closed": true,
+								"node_id": "cf"
+							},
+							{
+								"position": "Vector2( 3200, 1024 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "53",
+								"wall_distance": 1.833333,
+								"closed": true,
+								"node_id": "cc"
+							},
+							{
+								"position": "Vector2( 3072, 896 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "53",
+								"wall_distance": 2.5,
+								"closed": true,
+								"node_id": "cd"
+							},
+							{
+								"position": "Vector2( 3712, 768 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "53",
+								"wall_distance": 3.833333,
+								"closed": true,
+								"node_id": "ce"
+							}
 						]
 					},
 					{
@@ -811,7 +1180,18 @@
 						"shadow": true,
 						"node_id": "4f",
 						"portals": [
-
+							{
+								"position": "Vector2( 3968, 1536 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "4f",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "cb"
+							}
 						]
 					},
 					{
@@ -825,7 +1205,42 @@
 						"shadow": true,
 						"node_id": "4e",
 						"portals": [
-
+							{
+								"position": "Vector2( 4096, 1792 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "4e",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "f3"
+							},
+							{
+								"position": "Vector2( 4224, 2048 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "4e",
+								"wall_distance": 1.166667,
+								"closed": true,
+								"node_id": "ca"
+							},
+							{
+								"position": "Vector2( 4608, 2048 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "4e",
+								"wall_distance": 1.666667,
+								"closed": true,
+								"node_id": "fd"
+							}
 						]
 					},
 					{
@@ -839,7 +1254,42 @@
 						"shadow": true,
 						"node_id": "4d",
 						"portals": [
-
+							{
+								"position": "Vector2( 3328, 2048 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "4d",
+								"wall_distance": 0.333333,
+								"closed": true,
+								"node_id": "fc"
+							},
+							{
+								"position": "Vector2( 3712, 2048 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "4d",
+								"wall_distance": 0.833333,
+								"closed": true,
+								"node_id": "c9"
+							},
+							{
+								"position": "Vector2( 3840, 1792 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "4d",
+								"wall_distance": 1.5,
+								"closed": true,
+								"node_id": "f4"
+							}
 						]
 					},
 					{
@@ -853,7 +1303,54 @@
 						"shadow": true,
 						"node_id": "4c",
 						"portals": [
-
+							{
+								"position": "Vector2( 2304, 2432 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "4c",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "d1"
+							},
+							{
+								"position": "Vector2( 2432, 2560 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "4c",
+								"wall_distance": 1.25,
+								"closed": true,
+								"node_id": "10e"
+							},
+							{
+								"position": "Vector2( 2688, 2560 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobNarrow01.png",
+								"radius": 128,
+								"wall_id": "4c",
+								"wall_distance": 1.75,
+								"closed": true,
+								"node_id": "129"
+							},
+							{
+								"position": "Vector2( 2816, 2432 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "4c",
+								"wall_distance": 2.5,
+								"closed": true,
+								"node_id": "d0"
+							}
 						]
 					},
 					{
@@ -881,7 +1378,30 @@
 						"shadow": true,
 						"node_id": "45",
 						"portals": [
-
+							{
+								"position": "Vector2( 3072, 1792 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "45",
+								"wall_distance": 1.333333,
+								"closed": true,
+								"node_id": "fa"
+							},
+							{
+								"position": "Vector2( 3072, 2176 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnobWide01.png",
+								"radius": 128,
+								"wall_id": "45",
+								"wall_distance": 1.833333,
+								"closed": true,
+								"node_id": "c8"
+							}
 						]
 					},
 					{
@@ -909,7 +1429,66 @@
 						"shadow": true,
 						"node_id": "3a",
 						"portals": [
-
+							{
+								"position": "Vector2( 2048, 1152 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorSlideNarrow01.png",
+								"radius": 128,
+								"wall_id": "3a",
+								"wall_distance": 0.1,
+								"closed": true,
+								"node_id": "e1"
+							},
+							{
+								"position": "Vector2( 2048, 1408 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow01.png",
+								"radius": 128,
+								"wall_id": "3a",
+								"wall_distance": 0.3,
+								"closed": true,
+								"node_id": "e6"
+							},
+							{
+								"position": "Vector2( 2048, 1664 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "3a",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "dd"
+							},
+							{
+								"position": "Vector2( 2048, 1920 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow01.png",
+								"radius": 128,
+								"wall_id": "3a",
+								"wall_distance": 0.7,
+								"closed": true,
+								"node_id": "e7"
+							},
+							{
+								"position": "Vector2( 2048, 2176 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "3a",
+								"wall_distance": 0.9,
+								"closed": true,
+								"node_id": "de"
+							}
 						]
 					},
 					{
@@ -979,7 +1558,102 @@
 						"shadow": true,
 						"node_id": "30",
 						"portals": [
-
+							{
+								"position": "Vector2( 512, 1152 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow01.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.0625,
+								"closed": true,
+								"node_id": "e2"
+							},
+							{
+								"position": "Vector2( 512, 1408 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.1875,
+								"closed": true,
+								"node_id": "d9"
+							},
+							{
+								"position": "Vector2( 512, 1664 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow01.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.3125,
+								"closed": true,
+								"node_id": "e3"
+							},
+							{
+								"position": "Vector2( 512, 1920 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.4375,
+								"closed": true,
+								"node_id": "da"
+							},
+							{
+								"position": "Vector2( 512, 2176 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow01.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.5625,
+								"closed": true,
+								"node_id": "e4"
+							},
+							{
+								"position": "Vector2( 512, 2432 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.6875,
+								"closed": true,
+								"node_id": "db"
+							},
+							{
+								"position": "Vector2( 512, 2688 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow01.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.8125,
+								"closed": true,
+								"node_id": "e5"
+							},
+							{
+								"position": "Vector2( 512, 2944 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullWide02.png",
+								"radius": 128,
+								"wall_id": "30",
+								"wall_distance": 0.9375,
+								"closed": true,
+								"node_id": "dc"
+							}
 						]
 					},
 					{
@@ -993,7 +1667,102 @@
 						"shadow": true,
 						"node_id": "26",
 						"portals": [
-
+							{
+								"position": "Vector2( 2944, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.166667,
+								"closed": true,
+								"node_id": "fb"
+							},
+							{
+								"position": "Vector2( 3200, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.277778,
+								"closed": true,
+								"node_id": "eb"
+							},
+							{
+								"position": "Vector2( 3456, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.388889,
+								"closed": true,
+								"node_id": "ec"
+							},
+							{
+								"position": "Vector2( 3712, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "ed"
+							},
+							{
+								"position": "Vector2( 3968, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.611111,
+								"closed": true,
+								"node_id": "ee"
+							},
+							{
+								"position": "Vector2( 4224, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.722222,
+								"closed": true,
+								"node_id": "ef"
+							},
+							{
+								"position": "Vector2( 4480, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "26",
+								"wall_distance": 0.833333,
+								"closed": true,
+								"node_id": "f1"
+							},
+							{
+								"position": "Vector2( 4736, 2304 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/ui/null.png",
+								"radius": 256,
+								"wall_id": "26",
+								"wall_distance": 0.944444,
+								"closed": true,
+								"node_id": "f2"
+							}
 						]
 					},
 					{
@@ -1021,7 +1790,30 @@
 						"shadow": true,
 						"node_id": "24",
 						"portals": [
-
+							{
+								"position": "Vector2( 1152, 1024 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullDouble01.png",
+								"radius": 256,
+								"wall_id": "24",
+								"wall_distance": 0.25,
+								"closed": true,
+								"node_id": "e8"
+							},
+							{
+								"position": "Vector2( 768, 1024 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide01.png",
+								"radius": 128,
+								"wall_id": "24",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "e9"
+							}
 						]
 					},
 					{
@@ -1035,7 +1827,18 @@
 						"shadow": true,
 						"node_id": "23",
 						"portals": [
-
+							{
+								"position": "Vector2( 1664, 1024 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorKnob36.png",
+								"radius": 128,
+								"wall_id": "23",
+								"wall_distance": 1.125,
+								"closed": true,
+								"node_id": "ea"
+							}
 						]
 					},
 					{
@@ -1063,7 +1866,54 @@
 						"shadow": true,
 						"node_id": "21",
 						"portals": [
-
+							{
+								"position": "Vector2( 4096, 226.4 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/portcullis_02.png",
+								"radius": 130.5,
+								"wall_id": "21",
+								"wall_distance": 0.147396,
+								"closed": true,
+								"node_id": "7d"
+							},
+							{
+								"position": "Vector2( 4096, 493.067 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/portcullis_02.png",
+								"radius": 130.5,
+								"wall_id": "21",
+								"wall_distance": 0.321007,
+								"closed": true,
+								"node_id": "7e"
+							},
+							{
+								"position": "Vector2( 4096, 1021.07 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/portcullis_02.png",
+								"radius": 130.5,
+								"wall_id": "21",
+								"wall_distance": 0.664757,
+								"closed": true,
+								"node_id": "7f"
+							},
+							{
+								"position": "Vector2( 4096, 1282.4 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/portcullis_02.png",
+								"radius": 130.5,
+								"wall_id": "21",
+								"wall_distance": 0.834896,
+								"closed": true,
+								"node_id": "80"
+							}
 						]
 					},
 					{
@@ -1091,7 +1941,318 @@
 						"shadow": true,
 						"node_id": "1f",
 						"portals": [
-
+							{
+								"position": "Vector2( 256, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.052632,
+								"closed": true,
+								"node_id": "bc"
+							},
+							{
+								"position": "Vector2( 512, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.105263,
+								"closed": true,
+								"node_id": "bb"
+							},
+							{
+								"position": "Vector2( 768, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.157895,
+								"closed": true,
+								"node_id": "ba"
+							},
+							{
+								"position": "Vector2( 1152, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorPushPullNarrow01.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.236842,
+								"closed": true,
+								"node_id": "b7"
+							},
+							{
+								"position": "Vector2( 1792, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.368421,
+								"closed": true,
+								"node_id": "bd"
+							},
+							{
+								"position": "Vector2( 2048, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.421053,
+								"closed": true,
+								"node_id": "be"
+							},
+							{
+								"position": "Vector2( 2304, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorPushPullNarrow01.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.473684,
+								"closed": true,
+								"node_id": "b8"
+							},
+							{
+								"position": "Vector2( 2800.4, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/portals/door_12.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.575739,
+								"closed": true,
+								"node_id": "82"
+							},
+							{
+								"position": "Vector2( 3440.4, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://textures/portals/door_12.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.707318,
+								"closed": true,
+								"node_id": "81"
+							},
+							{
+								"position": "Vector2( 3968, 0 )",
+								"rotation": 0,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorPushPullNarrow01.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 0.815789,
+								"closed": true,
+								"node_id": "b9"
+							},
+							{
+								"position": "Vector2( 4736, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.026316,
+								"closed": true,
+								"node_id": "c2"
+							},
+							{
+								"position": "Vector2( 4480, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.078947,
+								"closed": true,
+								"node_id": "c3"
+							},
+							{
+								"position": "Vector2( 4224, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.131579,
+								"closed": true,
+								"node_id": "c4"
+							},
+							{
+								"position": "Vector2( 3968, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorPushPullNarrow02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.184211,
+								"closed": true,
+								"node_id": "c6"
+							},
+							{
+								"position": "Vector2( 3712, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorPushPullNarrow01.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.236842,
+								"closed": true,
+								"node_id": "c7"
+							},
+							{
+								"position": "Vector2( 3456, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.289474,
+								"closed": true,
+								"node_id": "c5"
+							},
+							{
+								"position": "Vector2( 3200, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.342105,
+								"closed": true,
+								"node_id": "c1"
+							},
+							{
+								"position": "Vector2( 2944, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.394737,
+								"closed": true,
+								"node_id": "c0"
+							},
+							{
+								"position": "Vector2( 2688, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowNarrow.png",
+								"radius": 72,
+								"wall_id": "1f",
+								"wall_distance": 2.447368,
+								"closed": true,
+								"node_id": "bf"
+							},
+							{
+								"position": "Vector2( 2304, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TDoorGPushPullDouble01.png",
+								"radius": 256,
+								"wall_id": "1f",
+								"wall_distance": 2.526316,
+								"closed": true,
+								"node_id": "b3"
+							},
+							{
+								"position": "Vector2( 1920, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.605263,
+								"closed": true,
+								"node_id": "b6"
+							},
+							{
+								"position": "Vector2( 1408, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.710526,
+								"closed": true,
+								"node_id": "ad"
+							},
+							{
+								"position": "Vector2( 1152, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.763158,
+								"closed": true,
+								"node_id": "ac"
+							},
+							{
+								"position": "Vector2( 896, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.815789,
+								"closed": true,
+								"node_id": "ab"
+							},
+							{
+								"position": "Vector2( 640, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.868421,
+								"closed": true,
+								"node_id": "aa"
+							},
+							{
+								"position": "Vector2( 384, 3072 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://packs/nisGyh8V/textures/portals/TWindowWide02.png",
+								"radius": 128,
+								"wall_id": "1f",
+								"wall_distance": 2.921053,
+								"closed": true,
+								"node_id": "a9"
+							}
 						]
 					}
 				],
@@ -1123,7 +2284,2404 @@
 
 				],
 				"objects": [
-
+					{
+						"position": "Vector2( 1385.73, 166.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f8"
+					},
+					{
+						"position": "Vector2( 117.73, 362.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f7"
+					},
+					{
+						"position": "Vector2( 121.73, 514.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f6"
+					},
+					{
+						"position": "Vector2( 117.73, 634.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f5"
+					},
+					{
+						"position": "Vector2( 117.73, 762.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f4"
+					},
+					{
+						"position": "Vector2( 129.73, 930.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f3"
+					},
+					{
+						"position": "Vector2( 501.73, 934.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f2"
+					},
+					{
+						"position": "Vector2( 377.73, 930.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f1"
+					},
+					{
+						"position": "Vector2( 269.73, 930.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1f0"
+					},
+					{
+						"position": "Vector2( 417.73, 506.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ef"
+					},
+					{
+						"position": "Vector2( 605.73, 710.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ee"
+					},
+					{
+						"position": "Vector2( 773.73, 722.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ed"
+					},
+					{
+						"position": "Vector2( 949.73, 718.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ec"
+					},
+					{
+						"position": "Vector2( 921.73, 270.399 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1eb"
+					},
+					{
+						"position": "Vector2( 761.73, 274.399 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ea"
+					},
+					{
+						"position": "Vector2( 609.73, 274.399 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1e9"
+					},
+					{
+						"position": "Vector2( 4813.73, 2454.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Screens/screen_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1e8"
+					},
+					{
+						"position": "Vector2( 1585.73, 738.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Screens/flatscreen_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1e7"
+					},
+					{
+						"position": "Vector2( 1481.73, 486.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Screens/flatscreen_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1e6"
+					},
+					{
+						"position": "Vector2( 773.73, 498.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/table_05.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1e5"
+					},
+					{
+						"position": "Vector2( 2269.73, 782.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1e4"
+					},
+					{
+						"position": "Vector2( 2113.73, 778.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1e3"
+					},
+					{
+						"position": "Vector2( 2273.73, 914.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1e2"
+					},
+					{
+						"position": "Vector2( 2433.73, 802.399 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1e1"
+					},
+					{
+						"position": "Vector2( 2269.73, 646.399 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1e0"
+					},
+					{
+						"position": "Vector2( 2177.73, 2130.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1df"
+					},
+					{
+						"position": "Vector2( 2165.73, 1674.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1de"
+					},
+					{
+						"position": "Vector2( 2165.73, 1546.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1dd"
+					},
+					{
+						"position": "Vector2( 401.73, 2730.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1dc"
+					},
+					{
+						"position": "Vector2( 397.73, 2298.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1db"
+					},
+					{
+						"position": "Vector2( 389.73, 2174.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1da"
+					},
+					{
+						"position": "Vector2( 397.73, 1718.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1d9"
+					},
+					{
+						"position": "Vector2( 405.73, 1182.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1d8"
+					},
+					{
+						"position": "Vector2( 4415.07, 2187.07 )",
+						"rotation": 0.202763,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1d5"
+					},
+					{
+						"position": "Vector2( 4095.06, 2157.73 )",
+						"rotation": -0.114824,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1d4"
+					},
+					{
+						"position": "Vector2( 3756.4, 2187.07 )",
+						"rotation": 0.072049,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1d3"
+					},
+					{
+						"position": "Vector2( 3465.73, 2155.07 )",
+						"rotation": -0.261797,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1d2"
+					},
+					{
+						"position": "Vector2( 3233.73, 2165.73 )",
+						"rotation": 0.261801,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1d1"
+					},
+					{
+						"position": "Vector2( 4453.73, 1754.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA07.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1d0"
+					},
+					{
+						"position": "Vector2( 3561.73, 1834.4 )",
+						"rotation": 1.308997,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1cf"
+					},
+					{
+						"position": "Vector2( 3273.73, 1786.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1ce"
+					},
+					{
+						"position": "Vector2( 1562.63, 1588.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.977654, 0.977654 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernLaundry/Colorable/ApplianceWasher.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1a6"
+					},
+					{
+						"position": "Vector2( 1693.73, 1590.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernLaundry/Colorable/ApplianceWasher.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "1a5"
+					},
+					{
+						"position": "Vector2( 4745.73, 1622.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Copier02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1a4"
+					},
+					{
+						"position": "Vector2( 3717.73, 1618.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Copier02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1a3"
+					},
+					{
+						"position": "Vector2( 2669.73, 2226.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Copier02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1a2"
+					},
+					{
+						"position": "Vector2( 2365.73, 462.399 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Copier02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1a1"
+					},
+					{
+						"position": "Vector2( 1645.73, 1470.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Copier01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff92aa58",
+						"node_id": "1a0"
+					},
+					{
+						"position": "Vector2( 4249.73, 2626.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff92aa58",
+						"node_id": "19f"
+					},
+					{
+						"position": "Vector2( 1721.73, 2202.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffc0866c",
+						"node_id": "19e"
+					},
+					{
+						"position": "Vector2( 4241.73, 2618.4 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/M0UD6yLx/textures/objects/Tableware/Colorable/cup_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "19d"
+					},
+					{
+						"position": "Vector2( 4265.73, 2642.4 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/M0UD6yLx/textures/objects/Tableware/Colorable/cup_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "19c"
+					},
+					{
+						"position": "Vector2( 1677.73, 2154.4 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/M0UD6yLx/textures/objects/Tableware/Colorable/cup_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "19b"
+					},
+					{
+						"position": "Vector2( 1709.73, 2202.4 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/M0UD6yLx/textures/objects/Tableware/Colorable/fallen_cup_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "19a"
+					},
+					{
+						"position": "Vector2( 4241.73, 2726.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/M0UD6yLx/textures/objects/Tableware/Colorable/plate.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "199"
+					},
+					{
+						"position": "Vector2( 1613.73, 2206.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/M0UD6yLx/textures/objects/Tableware/Colorable/plate.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff809dab",
+						"node_id": "198"
+					},
+					{
+						"position": "Vector2( 2673.73, 2910.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Containers/chest_04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "197"
+					},
+					{
+						"position": "Vector2( 813.729, 2966.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/JoOKLIJc/textures/objects/Plant/Colorable/Long Grass 2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff789868",
+						"node_id": "196"
+					},
+					{
+						"position": "Vector2( 1265.73, 2950.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/JoOKLIJc/textures/objects/Plant/Colorable/Heart Leaf Philodendron 3 Colorable.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff789868",
+						"node_id": "195"
+					},
+					{
+						"position": "Vector2( 1041.73, 2946.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/JoOKLIJc/textures/objects/Plant/Small Broad Leaf 3.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "194"
+					},
+					{
+						"position": "Vector2( 981.729, 2771.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "193"
+					},
+					{
+						"position": "Vector2( 971.062, 2697.07 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "192"
+					},
+					{
+						"position": "Vector2( 976.396, 2630.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "191"
+					},
+					{
+						"position": "Vector2( 971.062, 2451.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "190"
+					},
+					{
+						"position": "Vector2( 971.062, 2382.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "18f"
+					},
+					{
+						"position": "Vector2( 973.729, 2307.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "18e"
+					},
+					{
+						"position": "Vector2( 971.062, 2113.07 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "18d"
+					},
+					{
+						"position": "Vector2( 973.729, 2046.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "18c"
+					},
+					{
+						"position": "Vector2( 973.729, 1974.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "18b"
+					},
+					{
+						"position": "Vector2( 973.729, 1785.07 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "18a"
+					},
+					{
+						"position": "Vector2( 973.729, 1715.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "189"
+					},
+					{
+						"position": "Vector2( 973.729, 1643.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "188"
+					},
+					{
+						"position": "Vector2( 973.729, 1462.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "186"
+					},
+					{
+						"position": "Vector2( 976.396, 1390.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "185"
+					},
+					{
+						"position": "Vector2( 976.396, 1315.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "184"
+					},
+					{
+						"position": "Vector2( 1077.73, 2121.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "183"
+					},
+					{
+						"position": "Vector2( 1077.73, 2046.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "182"
+					},
+					{
+						"position": "Vector2( 1075.06, 1977.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "181"
+					},
+					{
+						"position": "Vector2( 1075.06, 1790.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "180"
+					},
+					{
+						"position": "Vector2( 1075.06, 1721.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "17f"
+					},
+					{
+						"position": "Vector2( 1077.73, 1646.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "17e"
+					},
+					{
+						"position": "Vector2( 1075.06, 2310.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "17d"
+					},
+					{
+						"position": "Vector2( 1075.06, 2385.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "17c"
+					},
+					{
+						"position": "Vector2( 1069.73, 2459.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "17b"
+					},
+					{
+						"position": "Vector2( 1075.06, 2633.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "17a"
+					},
+					{
+						"position": "Vector2( 1075.06, 2705.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "179"
+					},
+					{
+						"position": "Vector2( 1075.06, 2777.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "178"
+					},
+					{
+						"position": "Vector2( 1077.73, 1473.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "162"
+					},
+					{
+						"position": "Vector2( 1075.06, 1393.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "161"
+					},
+					{
+						"position": "Vector2( 1077.73, 1315.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "160"
+					},
+					{
+						"position": "Vector2( 1629.73, 2993.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "15f"
+					},
+					{
+						"position": "Vector2( 1704.4, 2990.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "15e"
+					},
+					{
+						"position": "Vector2( 1784.4, 2993.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "15d"
+					},
+					{
+						"position": "Vector2( 1861.73, 2993.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "15c"
+					},
+					{
+						"position": "Vector2( 1941.73, 2993.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "15b"
+					},
+					{
+						"position": "Vector2( 4787.06, 2689.07 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "157"
+					},
+					{
+						"position": "Vector2( 4563.06, 2691.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "156"
+					},
+					{
+						"position": "Vector2( 4563.06, 2771.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "155"
+					},
+					{
+						"position": "Vector2( 4565.73, 2923.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "154"
+					},
+					{
+						"position": "Vector2( 4563.06, 3001.07 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "153"
+					},
+					{
+						"position": "Vector2( 4784.4, 2766.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "151"
+					},
+					{
+						"position": "Vector2( 4784.4, 2849.07 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "150"
+					},
+					{
+						"position": "Vector2( 4784.4, 2926.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "14f"
+					},
+					{
+						"position": "Vector2( 4784.4, 3001.07 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "14e"
+					},
+					{
+						"position": "Vector2( 4272.4, 3001.07 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "14d"
+					},
+					{
+						"position": "Vector2( 4200.4, 2998.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "14c"
+					},
+					{
+						"position": "Vector2( 4128.4, 2998.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "149"
+					},
+					{
+						"position": "Vector2( 3384.4, 2995.73 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "148"
+					},
+					{
+						"position": "Vector2( 3456.4, 2995.73 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "147"
+					},
+					{
+						"position": "Vector2( 3528.4, 2995.73 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "146"
+					},
+					{
+						"position": "Vector2( 3123.06, 3006.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "145"
+					},
+					{
+						"position": "Vector2( 3120.4, 2934.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "144"
+					},
+					{
+						"position": "Vector2( 3115.06, 2787.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "143"
+					},
+					{
+						"position": "Vector2( 3115.06, 2715.73 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "142"
+					},
+					{
+						"position": "Vector2( 3019.06, 2710.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "141"
+					},
+					{
+						"position": "Vector2( 3021.73, 2779.73 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "140"
+					},
+					{
+						"position": "Vector2( 3029.73, 2934.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "13f"
+					},
+					{
+						"position": "Vector2( 3027.06, 3006.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff679865",
+						"node_id": "13e"
+					},
+					{
+						"position": "Vector2( 1664.4, 2443.73 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/DeskL02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "fe"
+					},
+					{
+						"position": "Vector2( 1936.4, 2521.07 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "ff"
+					},
+					{
+						"position": "Vector2( 3216.4, 2257.07 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "100"
+					},
+					{
+						"position": "Vector2( 3509.73, 2257.07 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "101"
+					},
+					{
+						"position": "Vector2( 3803.06, 2257.07 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "103"
+					},
+					{
+						"position": "Vector2( 4093.73, 2257.07 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "104"
+					},
+					{
+						"position": "Vector2( 4387.06, 2257.07 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/small_table.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "105"
+					},
+					{
+						"position": "Vector2( 1731.06, 2406.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/office_chair_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "12e"
+					},
+					{
+						"position": "Vector2( 1973.73, 2395.73 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/office_chair_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "12f"
+					},
+					{
+						"position": "Vector2( 2105.73, 462.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8d6d58",
+						"node_id": "1ae"
+					},
+					{
+						"position": "Vector2( 2297.73, 1614.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1af"
+					},
+					{
+						"position": "Vector2( 2297.73, 2138.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1b0"
+					},
+					{
+						"position": "Vector2( 273.73, 1186.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1b1"
+					},
+					{
+						"position": "Vector2( 261.73, 1706.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1b2"
+					},
+					{
+						"position": "Vector2( 253.73, 2210.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1b3"
+					},
+					{
+						"position": "Vector2( 253.73, 2730.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1b4"
+					},
+					{
+						"position": "Vector2( 2817.73, 1782.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1b9"
+					},
+					{
+						"position": "Vector2( 2817.73, 1894.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1ba"
+					},
+					{
+						"position": "Vector2( 4441.73, 1622.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1bb"
+					},
+					{
+						"position": "Vector2( 3341.73, 1802.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1bc"
+					},
+					{
+						"position": "Vector2( 3457.73, 1798.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1be"
+					},
+					{
+						"position": "Vector2( 3429.73, 370.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Tables/desk_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1bf"
+					},
+					{
+						"position": "Vector2( 1937.73, 146.4 )",
+						"rotation": 0.261799,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/chairs/armchair_03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "1c1"
+					},
+					{
+						"position": "Vector2( 4645.73, 94.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/chairs/bench_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff6b3834",
+						"node_id": "1c2"
+					},
+					{
+						"position": "Vector2( 4653.73, 862.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/chairs/bench_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "1c3"
+					},
+					{
+						"position": "Vector2( 2105.73, 310.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA07.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1c5"
+					},
+					{
+						"position": "Vector2( 2413.73, 1614.4 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1c6"
+					},
+					{
+						"position": "Vector2( 2425.73, 2142.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1c7"
+					},
+					{
+						"position": "Vector2( 137.73, 1162.4 )",
+						"rotation": -0.261799,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1c8"
+					},
+					{
+						"position": "Vector2( 149.73, 1706.4 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1c9"
+					},
+					{
+						"position": "Vector2( 117.73, 2210.4 )",
+						"rotation": -1.832596,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ca"
+					},
+					{
+						"position": "Vector2( 133.73, 2726.4 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1cb"
+					},
+					{
+						"position": "Vector2( 2813.73, 1654.4 )",
+						"rotation": -0.261799,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1cc"
+					},
+					{
+						"position": "Vector2( 2801.73, 2026.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernFurnature/Colorable/ChairA03.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff585858",
+						"node_id": "1cd"
+					},
+					{
+						"position": "Vector2( 1245.73, 150.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Tables/tiny_table_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "1f9"
+					},
+					{
+						"position": "Vector2( 1277.73, 122.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/MousePad01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1fa"
+					},
+					{
+						"position": "Vector2( 1201.73, 150.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1fb"
+					},
+					{
+						"position": "Vector2( 293.73, 1090.4 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1fe"
+					},
+					{
+						"position": "Vector2( 273.73, 1606.4 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "1ff"
+					},
+					{
+						"position": "Vector2( 273.73, 2106.4 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "200"
+					},
+					{
+						"position": "Vector2( 269.73, 2622.4 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "201"
+					},
+					{
+						"position": "Vector2( 2289.73, 1734.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "202"
+					},
+					{
+						"position": "Vector2( 2293.73, 2242.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "203"
+					},
+					{
+						"position": "Vector2( 281.73, 1170.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "204"
+					},
+					{
+						"position": "Vector2( 257.73, 1706.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "205"
+					},
+					{
+						"position": "Vector2( 265.73, 2214.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "206"
+					},
+					{
+						"position": "Vector2( 249.73, 2738.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "207"
+					},
+					{
+						"position": "Vector2( 1253.73, 166.399 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "208"
+					},
+					{
+						"position": "Vector2( 2285.73, 1622.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "209"
+					},
+					{
+						"position": "Vector2( 2301.73, 2138.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20a"
+					},
+					{
+						"position": "Vector2( 269.73, 1378.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Printer01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20b"
+					},
+					{
+						"position": "Vector2( 253.73, 1902.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Printer01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20c"
+					},
+					{
+						"position": "Vector2( 265.73, 2398.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Printer01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20d"
+					},
+					{
+						"position": "Vector2( 261.73, 2914.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Printer01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20e"
+					},
+					{
+						"position": "Vector2( 2309.73, 1422.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Printer01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "20f"
+					},
+					{
+						"position": "Vector2( 2309.73, 1958.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Printer01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "210"
+					},
+					{
+						"position": "Vector2( 2825.73, 1794.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Laptop01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "211"
+					},
+					{
+						"position": "Vector2( 2833.73, 1886.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Laptop01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "212"
+					},
+					{
+						"position": "Vector2( 3365.73, 1774.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Laptop01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "213"
+					},
+					{
+						"position": "Vector2( 3445.73, 1782.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Laptop01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "214"
+					},
+					{
+						"position": "Vector2( 4449.73, 1610.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Laptop01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "215"
+					},
+					{
+						"position": "Vector2( 4521.73, 1590.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "216"
+					},
+					{
+						"position": "Vector2( 269.73, 1246.4 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "217"
+					},
+					{
+						"position": "Vector2( 257.73, 1770.4 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "218"
+					},
+					{
+						"position": "Vector2( 249.73, 2266.4 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "219"
+					},
+					{
+						"position": "Vector2( 245.73, 2806.4 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "21a"
+					},
+					{
+						"position": "Vector2( 2285.73, 1562.4 )",
+						"rotation": 2.879793,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "21b"
+					},
+					{
+						"position": "Vector2( 2301.73, 2074.4 )",
+						"rotation": 2.879793,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "21c"
+					},
+					{
+						"position": "Vector2( 1769.73, 2498.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/1lquWCLg/textures/objects/ModernElectronics/Colorable/CardReader01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "21d"
+					},
+					{
+						"position": "Vector2( 1689.73, 2514.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "21e"
+					},
+					{
+						"position": "Vector2( 1969.73, 2514.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "21f"
+					},
+					{
+						"position": "Vector2( 1629.73, 2494.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "220"
+					},
+					{
+						"position": "Vector2( 1889.73, 2502.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "221"
+					},
+					{
+						"position": "Vector2( 2129.73, 442.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "222"
+					},
+					{
+						"position": "Vector2( 2029.73, 434.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "223"
+					},
+					{
+						"position": "Vector2( 2125.73, 490.399 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor04.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "224"
+					},
+					{
+						"position": "Vector2( 3205.73, 2234.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "225"
+					},
+					{
+						"position": "Vector2( 3493.73, 2234.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "226"
+					},
+					{
+						"position": "Vector2( 3761.73, 2234.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "227"
+					},
+					{
+						"position": "Vector2( 4117.73, 2238.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "228"
+					},
+					{
+						"position": "Vector2( 4433.73, 2230.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Keyboard02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "229"
+					},
+					{
+						"position": "Vector2( 3153.73, 2230.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "22a"
+					},
+					{
+						"position": "Vector2( 3445.73, 2226.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "22b"
+					},
+					{
+						"position": "Vector2( 3709.73, 2234.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "22c"
+					},
+					{
+						"position": "Vector2( 4049.73, 2230.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "22d"
+					},
+					{
+						"position": "Vector2( 4373.73, 2242.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Mouse01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "22e"
+					},
+					{
+						"position": "Vector2( 3137.73, 2242.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "235"
+					},
+					{
+						"position": "Vector2( 3409.73, 2242.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "236"
+					},
+					{
+						"position": "Vector2( 3697.73, 2254.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "237"
+					},
+					{
+						"position": "Vector2( 3997.73, 2250.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "238"
+					},
+					{
+						"position": "Vector2( 4297.73, 2242.4 )",
+						"rotation": -2.617994,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/P3m04QOp/textures/objects/ModernElectronics/Colorable/Monitor02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "239"
+					},
+					{
+						"position": "Vector2( 3261.73, 378.399 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "23a"
+					},
+					{
+						"position": "Vector2( 3605.73, 374.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Chairs/chair_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "23b"
+					},
+					{
+						"position": "Vector2( 4769.73, 334.399 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/chairs/bench_01.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff282828",
+						"node_id": "23c"
+					},
+					{
+						"position": "Vector2( 4773.73, 1090.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/chairs/bench_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "23d"
+					},
+					{
+						"position": "Vector2( 1985.73, 454.399 )",
+						"rotation": 2.879793,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "23e"
+					},
+					{
+						"position": "Vector2( 2029.73, 450.399 )",
+						"rotation": 2.879793,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "23f"
+					},
+					{
+						"position": "Vector2( 2309.73, 1518.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "240"
+					},
+					{
+						"position": "Vector2( 265.73, 1274.4 )",
+						"rotation": 1.832596,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "241"
+					},
+					{
+						"position": "Vector2( 2721.73, 1770.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "242"
+					},
+					{
+						"position": "Vector2( 4345.73, 1622.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "243"
+					},
+					{
+						"position": "Vector2( 3473.73, 1698.4 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_04.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "244"
+					},
+					{
+						"position": "Vector2( 253.73, 2814.4 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_04.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "245"
+					},
+					{
+						"position": "Vector2( 1993.73, 462.399 )",
+						"rotation": 0.523599,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://textures/objects/activities/administration/paper_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "246"
+					}
 				],
 				"lights": [
 
@@ -1286,7 +4844,7 @@
 						"position": "Vector2( 2347.06, 2375.74 )",
 						"font_name": "Economica",
 						"font_size": 32,
-						"font_color": "ffffffff",
+						"font_color": "ff000000",
 						"box_shape": 0,
 						"node_id": "68"
 					},
@@ -1349,7 +4907,7 @@
 						"position": "Vector2( 3413.73, 1218.4 )",
 						"font_name": "Economica",
 						"font_size": 32,
-						"font_color": "ffffffff",
+						"font_color": "ff000000",
 						"box_shape": 0,
 						"node_id": "6f"
 					}

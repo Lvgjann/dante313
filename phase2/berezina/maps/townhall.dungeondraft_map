@@ -396,7 +396,7 @@
 			"object_tags_memory": {
 				"set": 0,
 				"tags": [
-					"ModernElectronics"
+					"Storage"
 				]
 			},
 			"scatter_tags_memory": {
@@ -406,10 +406,10 @@
 				]
 			},
 			"object_library_memory": {
-				"mode": "tags",
+				"mode": "all",
 				"scroll": 0,
 				"selected": [
-
+					"res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/shower_head.png"
 				],
 				"search_strictness": 0.5
 			},
@@ -427,7 +427,7 @@
 		"format": 3,
 		"width": 19,
 		"height": 12,
-		"next_node_id": "247",
+		"next_node_id": "29a",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -781,6 +781,31 @@
 				],
 				"walls": [
 					{
+						"points": "PoolVector2Array( 3840, 1280, 3584, 1280 )",
+						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
+						"color": "ffffffff",
+						"loop": false,
+						"type": 1,
+						"joint": 1,
+						"normalize_uv": true,
+						"shadow": true,
+						"node_id": "288",
+						"portals": [
+							{
+								"position": "Vector2( 3712, 1280 )",
+								"rotation": 3.141593,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -1, 0 )",
+								"texture": "res://textures/portals/door_06.png",
+								"radius": 128,
+								"wall_id": "288",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "289"
+							}
+						]
+					},
+					{
 						"points": "PoolVector2Array( 4608, 2304, 4864, 2304 )",
 						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
 						"color": "ffffffff",
@@ -844,7 +869,18 @@
 						"shadow": true,
 						"node_id": "123",
 						"portals": [
-
+							{
+								"position": "Vector2( 3840, 1408 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/door_06.png",
+								"radius": 128,
+								"wall_id": "123",
+								"wall_distance": 0.25,
+								"closed": true,
+								"node_id": "28b"
+							}
 						]
 					},
 					{
@@ -1068,8 +1104,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 3328, 1024, 3328, 1536 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1082,8 +1118,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 3072, 1024, 2560, 1024 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/concrete.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1096,8 +1132,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 3072, 768, 3072, 0 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1110,8 +1146,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 3840, 1536, 3840, 1024, 3072, 1024, 3072, 768, 3840, 768, 3840, 0 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1196,8 +1232,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 4096, 1536, 4096, 2048, 4864, 2048 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1245,8 +1281,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 3072, 2048, 3840, 2048, 3840, 1536, 3072, 1536 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1355,8 +1391,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 2048, 1792, 2560, 1792 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1369,8 +1405,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 2560, 1536, 3072, 1536, 3072, 2304 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1406,8 +1442,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 2048, 1280, 2560, 1280 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1507,8 +1543,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 512, 2560, 0, 2560 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1521,8 +1557,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 512, 2048, 0, 2048 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1535,8 +1571,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 512, 1536, 0, 1536 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1767,8 +1803,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 2560, 2304, 1536, 2304 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1781,8 +1817,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 1536, 1024, 0, 1024 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -1818,8 +1854,8 @@
 					},
 					{
 						"points": "PoolVector2Array( 1536, 0, 1536, 1024, 2560, 1024 )",
-						"texture": "res://packs/1lquWCLg/textures/walls/partition_wall.png",
-						"color": "ffffffff",
+						"texture": "res://textures/walls/stone.png",
+						"color": "ff605f58",
 						"loop": false,
 						"type": 1,
 						"joint": 1,
@@ -2062,6 +2098,30 @@
 								"node_id": "b9"
 							},
 							{
+								"position": "Vector2( 4864, 1802.4 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 1.586719,
+								"closed": true,
+								"node_id": "272"
+							},
+							{
+								"position": "Vector2( 4864, 2858.4 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 1.930469,
+								"closed": true,
+								"node_id": "273"
+							},
+							{
 								"position": "Vector2( 4736, 3072 )",
 								"rotation": 3.141593,
 								"scale": "Vector2( 1, 1 )",
@@ -2252,6 +2312,66 @@
 								"wall_distance": 2.921053,
 								"closed": true,
 								"node_id": "a9"
+							},
+							{
+								"position": "Vector2( 0, 2842.4 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 3.07474,
+								"closed": true,
+								"node_id": "278"
+							},
+							{
+								"position": "Vector2( 0, 2266.4 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 3.26224,
+								"closed": true,
+								"node_id": "277"
+							},
+							{
+								"position": "Vector2( 0, 1782.4 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 3.419792,
+								"closed": true,
+								"node_id": "276"
+							},
+							{
+								"position": "Vector2( 0, 1242.4 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 3.595573,
+								"closed": true,
+								"node_id": "274"
+							},
+							{
+								"position": "Vector2( 0, 478.4 )",
+								"rotation": -1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, -1 )",
+								"texture": "res://textures/portals/window_14.png",
+								"radius": 98.5,
+								"wall_id": "1f",
+								"wall_distance": 3.844271,
+								"closed": true,
+								"node_id": "275"
 							}
 						]
 					}
@@ -2284,6 +2404,17 @@
 
 				],
 				"objects": [
+					{
+						"position": "Vector2( 3465.73, 1154.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/shower.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "298"
+					},
 					{
 						"position": "Vector2( 1385.73, 166.399 )",
 						"rotation": -1.570796,
@@ -4681,6 +4812,578 @@
 						"layer": 100,
 						"shadow": true,
 						"node_id": "246"
+					},
+					{
+						"position": "Vector2( 1613.73, 150.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/merchant_shelf_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "247"
+					},
+					{
+						"position": "Vector2( 1605.73, 394.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/merchant_shelf_02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "249"
+					},
+					{
+						"position": "Vector2( 2837.73, 1454.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/merchant_shelf_05.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "24a"
+					},
+					{
+						"position": "Vector2( 2641.73, 1182.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/merchant_shelf_04.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "24b"
+					},
+					{
+						"position": "Vector2( 2921.73, 1106.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/merchant_shelf_03.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "24c"
+					},
+					{
+						"position": "Vector2( 3241.73, 1394.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/merchant_shelf_01.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "24d"
+					},
+					{
+						"position": "Vector2( 2649.73, 150.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "24e"
+					},
+					{
+						"position": "Vector2( 2645.73, 386.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "24f"
+					},
+					{
+						"position": "Vector2( 2649.73, 626.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "250"
+					},
+					{
+						"position": "Vector2( 2645.73, 870.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "251"
+					},
+					{
+						"position": "Vector2( 2981.73, 146.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "252"
+					},
+					{
+						"position": "Vector2( 2981.73, 386.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "253"
+					},
+					{
+						"position": "Vector2( 2985.73, 630.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/locker_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "254"
+					},
+					{
+						"position": "Vector2( 89.73, 142.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/cabinet_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "255"
+					},
+					{
+						"position": "Vector2( 2481.73, 134.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/cabinet_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "257"
+					},
+					{
+						"position": "Vector2( 4781.73, 1914.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Storage Furniture/cabinet_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "258"
+					},
+					{
+						"position": "Vector2( 4145.73, 1614.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "259"
+					},
+					{
+						"position": "Vector2( 3157.73, 1590.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "25a"
+					},
+					{
+						"position": "Vector2( 3269.73, 1590.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "25b"
+					},
+					{
+						"position": "Vector2( 3393.73, 1594.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "25c"
+					},
+					{
+						"position": "Vector2( 2649.73, 1594.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "25d"
+					},
+					{
+						"position": "Vector2( 2609.73, 2086.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "25e"
+					},
+					{
+						"position": "Vector2( 2985.73, 1586.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "25f"
+					},
+					{
+						"position": "Vector2( 2881.73, 1274.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "260"
+					},
+					{
+						"position": "Vector2( 2937.73, 1274.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://textures/objects/furniture/storage/small_chest_02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "261"
+					},
+					{
+						"position": "Vector2( 137.73, 1478.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "262"
+					},
+					{
+						"position": "Vector2( 137.73, 1998.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "263"
+					},
+					{
+						"position": "Vector2( 137.73, 2506.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "264"
+					},
+					{
+						"position": "Vector2( 137.73, 3014.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "265"
+					},
+					{
+						"position": "Vector2( 2425.73, 1078.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "266"
+					},
+					{
+						"position": "Vector2( 2429.73, 1226.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "267"
+					},
+					{
+						"position": "Vector2( 2193.73, 1078.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "268"
+					},
+					{
+						"position": "Vector2( 2205.73, 1226.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "269"
+					},
+					{
+						"position": "Vector2( 2497.73, 1422.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "26a"
+					},
+					{
+						"position": "Vector2( 2497.73, 1930.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/QzahaP3O/textures/objects/Storage Furniture/shelf_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ff8a8a8a",
+						"node_id": "26b"
+					},
+					{
+						"position": "Vector2( 2481.73, 2442.4 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "27a"
+					},
+					{
+						"position": "Vector2( 2637.73, 2438.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "27b"
+					},
+					{
+						"position": "Vector2( 4201.73, 686.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "280"
+					},
+					{
+						"position": "Vector2( 4217.73, 854.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "281"
+					},
+					{
+						"position": "Vector2( 4141.73, 694.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_paper.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "282"
+					},
+					{
+						"position": "Vector2( 4145.73, 846.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_paper.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "283"
+					},
+					{
+						"position": "Vector2( 3709.73, 1110.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_2.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "284"
+					},
+					{
+						"position": "Vector2( 3781.73, 1166.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_paper.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "285"
+					},
+					{
+						"position": "Vector2( 3593.73, 1166.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/shower_curtain_closed.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "286"
+					},
+					{
+						"position": "Vector2( 3461.73, 1278.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/shower_curtain_closed.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "287"
+					},
+					{
+						"position": "Vector2( 4409.73, 702.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/1lquWCLg/textures/objects/ModernBathroom/BathSink02.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "28e"
+					},
+					{
+						"position": "Vector2( 4417.73, 838.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/1lquWCLg/textures/objects/ModernBathroom/BathSink02.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "28f"
+					},
+					{
+						"position": "Vector2( 2345.73, 2370.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernKitchen/kitchenSinkSingle.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "290"
+					},
+					{
+						"position": "Vector2( 2769.73, 2370.4 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/bsj2I8JP/textures/objects/ModernKitchen/kitchenSinkSingle.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "291"
+					},
+					{
+						"position": "Vector2( 3465.73, 1462.4 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/sink_1.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "292"
+					},
+					{
+						"position": "Vector2( 2461.73, 2354.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_paper.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "295"
+					},
+					{
+						"position": "Vector2( 2665.73, 2350.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/toilet_paper.png",
+						"layer": 100,
+						"shadow": true,
+						"node_id": "296"
+					},
+					{
+						"position": "Vector2( 3405.73, 1162.4 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/A0Ad0iPh/textures/objects/SFM Bathroom/shower_head.png",
+						"layer": 100,
+						"shadow": true,
+						"custom_color": "ffd8d8d8",
+						"node_id": "299"
 					}
 				],
 				"lights": [
